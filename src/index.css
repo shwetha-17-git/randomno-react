@@ -1,0 +1,38 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #04060f;
+  --surface: #080c1a;
+  --card: #0d1226;
+  --border: #1a2245;
+  --accent: #00f0ff;
+  --accent2: #ff3cac;
+  --accent-dim: #00a8b5;
+  --text: #e8eeff;
+  --text-dim: #4a5580;
+  --font-display: 'Orbitron', sans-serif;
+  --font-body: 'Syne', sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
